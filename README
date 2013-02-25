@@ -1,0 +1,23 @@
+Genetic Algorithm - Sentence Evolution
+
+This is just a quick example of how a genetic algorithm works.
+This will take a target sentence and try to evolve a population of random strings to that final form.
+I did not go for optimization, but rather demonstration.
+
+Example usage:
+
+sentence.py <number of members> '<target sentence here>'
+
+sentence.py 100 'Hello world'
+Goal: Hello world
+Done! Took: 368 generations!
+
+sentence.py 100 'This is just a longer example that should take many generations to finish.'
+Goal: This is just a longer example that should take many generations to finish.
+Done! Took: 9272 generations!
+
+sentence.py 1000000 'hello'
+Goal: hello
+Done! Took: 34 generations!
+
+You can and should play with different values for how often members mutate, what percentage die off, what percentage of parents mates, and how big the population is. 
